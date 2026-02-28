@@ -8,3 +8,24 @@ gatherUsageStats = false
 
 [theme]
 primaryColor = "#2f5496"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#1e3a5f"
+font = "sans serif"
+```
+4. Click **"Commit changes"**
+
+**Step 4 — Deploy on Streamlit Cloud:**
+- Branch: **`main`**
+- Main file path: **`app.py`**
+- Click **Deploy**
+
+Your repo should look like this when done:
+```
+pdf-data-extractor/
+├── .gitignore
+├── .streamlit/
+│   └── config.toml
+├── app.py
+├── packages.txt
+└── requirements.txt
